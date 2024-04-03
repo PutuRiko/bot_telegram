@@ -133,9 +133,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     else:
         print("Connection to database failed.")
 
-# async def error(update: Update, context: ContextTypes.DEFAULT_TYPE):
-#     print(f'Update {update} caused error {context.error}')
-
 
 # menu 1 cari nim mahasiswa
 def cari_mahasiswa_by_nim(nim: str) -> str:
